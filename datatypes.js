@@ -64,3 +64,6 @@ let challenge = "30 days of Javascript";
 // console.log(a);
 
 let b = new Date();
+console.log(b.getFullYear());
+console.log(b.getDay());
+console.log(b.getDate());
