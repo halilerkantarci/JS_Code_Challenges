@@ -12,8 +12,10 @@ let halil = numbers.filter(evenNumbers);
 
 //* liste içindeki elemanlar sırasıyla içine girer halilin içine tekrar liste halinde filtreler
 function evenNumbers(num) {
-  if (num % 2 == 0) {
-    return num;
-  }
+  return !(num % 2);
 }
 console.log(halil);
+
+//   if (num % 2 == 0) {
+//     return num;
+//   }
